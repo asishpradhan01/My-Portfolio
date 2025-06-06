@@ -1,0 +1,156 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Asish Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playwrite+AU+SA:wght@100..400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="medisqueries.css">
+</head>
+<body> 
+    <nav id="desktop-nav">
+        <div class="container">
+            <div class="container-section">
+                <h1 class="firt-h1">Port<span style="color: tomato;">folio</span></h1>
+            </div>
+            <div class="info">
+                <ul class="my-info">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+        </nav>
+
+        <nav id="hamburger-nav">
+          <div class="container">
+            <div class="container-section">
+                <h1><span style="color: rgb(192, 192, 192);">Port</span>folio</h1>
+            </div>
+            <div class="hamburger-menu">
+              <div class="hamburger-icons" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+              </div>
+              <div class="menu-links">
+                <li><a href="#home" onclick="toggleMenu()">Home</a></li>
+                <li><a href="#about" onclick="toggleMenu()">About</a></li>
+                <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+                <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+              </div>
+            </div>
+        </nav>
+
+    <div class="my-name" id="home">
+      <div class="name-container">
+        <h1 class="font">I'm Asish</h1>
+        <p class="font-p">A Programmer</p>
+      </div>
+    </div>
+
+    <section>
+        <div class="second-container" id="about">
+          <div class="middle-part">
+            <img src="./src/ashish.jpg" alt="my image" class="my-image">
+
+            <div class="about">
+              <p class="my-paragraph">This is</p>
+              <h1 class="about-t">About Me</h1>
+              <p class="para">I'm a Frontned Web Developer. I enjoy building clean, responsive designs.
+                Currently working on small projects and learning React. I like turning ideas into simple, functional websites.
+                When I'm not coding, I'm probably listening to music or getting lost in design inspiration.</p>
+                   <button class="my-cv"  onclick="window.open('./src/resume.pdf')">Download CV</button>
+                   <div class="socials-containers">
+                    <img src="./src/linkdein.png" alt="my-linkdelin" class="icons" onclick="location
+                    .href='https://www.linkedin.com/in/asish-pradhan-399283334/'">
+  
+                <img src="./src/github.png" alt="my-github" class="icons2" onclick="location.
+                href='https://github.com/asishpradhan01'">
+                </div>
+            </div>
+            </div>
+          </div>
+          </div>
+    </section>
+
+    <section class="forth-section" id="experience">
+      <h1 class="my-exprienced">Exprienced</h1>
+      <div class="forth-container">
+        <div class="forth">
+          <h2>Frontned Developmet</h2>
+          <div class="artical">
+            <article class="my-artical">
+              <h2>HTML</h2>
+              <p>✓ Exprienced</p>
+            </article>
+            <article class="my-artical">
+              <h2>CSS</h2>
+              <p>✓ Intermediate</p>
+            </article>
+            <article class="my-artical">
+              <h2>Javascript</h2>
+              <p>✓ Basic</p>
+            </article>
+            <article class="my-artical">
+              <h2>React</h2>
+              <p>✓ Basic</p>
+            </article>
+          </div>
+        </div>
+
+        <div class="forth">
+          <h2>Backned Development</h2>
+          <div class="artical">
+            <article class="my-artical">
+              <h2>PostgresSQL</h2>
+              <p>✓ Basic</p>
+            </article>
+            <article class="my-artical">
+              <h2>Node.js</h2>
+              <p>✓ Basic</p>
+            </article>
+            <article class="my-artical">
+              <h2>Express</h2>
+              <p>✓ Bsisc</p>
+            </article>
+            <article class="my-artical">
+              <h2>GIT</h2>
+              <p>✓ Intermediate</p>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="fifth-container" id="contact">
+     <div class="contact">
+      <form action="https://api.web3forms.com/submit" method="POST" class="contact-left">
+        <h1 class="fifth-h">Get In Touch</h1>
+        <div class="contact-details">
+          <div class="contact-info">
+            <input type="hidden" name="access_key" value="e2c5126f-6d9e-4a8e-a421-40a0a1cc6862">
+            <input type="text" placeholder="Name" class="name">
+            <input type="text" placeholder="Email" class="name">
+          </div>
+          <div class="form-control">
+            <textarea name="Message" placeholder="Message" class="text-area-1"></textarea>
+          </div>
+          <div class="form-button">
+            <button class="bttn">Send →</button>
+          </div>
+        </div>
+      </form>
+     </div>
+    </section>
+
+    <script src="index.js"></script>
+</body>
+</html>

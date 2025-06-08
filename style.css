@@ -1,0 +1,329 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Sora", sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.5rem;
+}
+
+h1 {
+    letter-spacing: 2px;
+}
+
+.firt-h1 {
+    color: white;
+}
+
+.my-info {
+    display: flex;
+    list-style: none;
+    gap: 1.8rem;
+    color: white;
+}
+
+nav {
+    background-color: rgb(60, 101, 114);
+    padding: 15px 30px;
+}
+
+.my-name {
+   text-align: center;
+  height: 80vh;
+ background: url("./src/sky.png");
+ position: relative;
+ padding-top: 100px;
+}
+
+.font {
+    font-family: "Playwrite AU SA", cursive;
+    font-size: 5rem;
+    color: white;
+}
+
+.font-p {
+    font-size: 2rem;
+    margin-top: 2rem;
+    color: white;
+}
+
+.second-container {
+    height: 100vh;
+    background-color: rgb(247, 244, 238);
+    display: flex;
+    justify-content: space-around;
+}
+
+.my-image {
+    width: 300px;
+    height: 300px;
+    border-radius: 200px;
+    position: relative;
+    top: 20%;
+    object-fit: cover;
+   
+}
+
+.middle-part {
+    display: flex;
+    justify-content: center;
+    gap: 6rem;
+}
+
+.about {
+    text-align: center;
+    margin-top: 120px;
+    color: white;
+}
+
+.about-t {
+    font-size: 3.5rem;
+    color: black;
+    position: relative;
+    top: 10px;
+}
+
+.my-paragraph {
+    color: black;
+    font-size: 30px;
+}
+
+.para {
+    width: 600px;
+    margin: auto;
+    position: relative;
+    top: 30px;
+    color: black;
+}
+
+.my-cv {
+    margin-top: 50px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 30px;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    transition: 1s ease;
+}
+
+.my-cv:hover {
+    background-color: white;
+    color: black;
+}
+
+.forth-container {
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    margin-top: 150px;
+}
+
+.my-exprienced {
+    text-align: center;
+    position: relative;
+    top: 100px;
+    font-size: 2rem;
+}
+
+.forth-section {
+    height: 100vh;
+    background-color: rgb(247, 244, 238);
+}
+
+.my-artical {
+    margin: 20px;
+}
+
+.forth {
+    gap: 2rem;
+    border: 2px solid;
+    padding: 30px;
+    width: 30%;
+    background-color: white;
+    border-radius: 15px;
+    border-color: rgb(109, 221, 221);
+}
+
+.artical {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.fifth-container {
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(247, 244, 238);
+}
+
+.contact-details {
+    margin-top: 80px;
+}
+
+.name {
+    font-size: 1.2rem;
+    border-radius: 30px;
+    border: 2px solid;
+    padding: 10px 2.5rem;
+    width: 350px;
+    border-color: rgb(109, 221, 221);
+}
+
+.contact-info {
+    display: flex;
+    gap: 2rem;
+}
+
+.form-control {
+    margin-top: 15px;
+}
+
+.text-area-1 {
+    width: 730px;
+    height: 200px;
+    padding-left: 2.5rem;
+    padding-top: 10px;
+    font-size: 18px;
+    border-radius: 15px;
+    border: 2px solid;
+    border-color: rgb(109, 221, 221);
+}
+
+.fifth-h {
+   font-size: 2rem;
+   text-align: center;
+
+}
+
+.form-button {
+    margin-top: 10px;
+}
+
+.bttn {
+    font-size: 1.3rem;
+    padding: 8px;
+    border-radius: 10px;
+    border: 2px solid;
+    background-color: black;
+    color: white;
+    transition: 1s ease;
+    cursor: pointer;
+}
+
+.bttn:hover {
+    background-color: white;
+    color: black;
+}
+
+.icons {
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
+}
+
+.icons2 {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+    text-underline-offset: 10px;
+     
+}
+
+#hamburger-nav {
+    display: none;
+}
+
+.hamburger-menu {
+    position: relative;
+    display: inline-block;
+}
+
+.hamburger-icons {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 24px;
+    width: 30px;
+    cursor: pointer;
+}
+
+.hamburger-icons span {
+    width: 100%;
+    height: 2px;
+    background-color: black;
+    transition: all 0.3 ease-in-out;
+}
+
+.menu-links {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    background-color: rgba(255, 255, 255, 0.3);;
+    width: fit-content;
+    max-height: 0;
+    overflow: hidden;
+    transition: all 0.3 ease-in-out;
+    z-index: 1;
+}
+
+.menu-links a {
+    display: block;
+    padding: 10px;
+    text-align: center;
+    font-size: 1.3rem;
+    color: black;
+    text-decoration: none;
+    transition: all 0.3 ease-in-out;
+}
+
+.menu-links li {
+    list-style: none;
+}
+
+.menu-links.open {
+    max-height: 300px;
+}
+
+.hamburger-icons.open span:first-child {
+    transform: rotate(45deg) translate(10px, 5px);
+}
+
+.hamburger-icons.open span:nth-child(2) {
+   opacity: 0;
+}
+
+.hamburger-icons.open span:last-child {
+    transform: rotate(-45deg) translate(10px, -5px);
+}
+
+.hamburger-icons span:first-child {
+    transform: none;
+}
+
+.hamburger-icons span:first-child {
+    opacity: 1;
+}
+
+.hamburger-icons span:first-child {
+    transform: none;
+}

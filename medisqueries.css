@@ -1,0 +1,128 @@
+@media screen and (max-width: 600px) {
+    #desktop-nav {
+        display: none;
+    }
+
+    #hamburger-nav {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .middle-part {
+        display: flex;
+        flex-direction: column;
+        display: block;
+    }
+    
+    .about {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .para {
+       width: 50%;
+        margin: auto;
+    }
+
+    .my-paragraph {
+         text-align: center;
+       
+    }
+
+    .second-container {
+       display: block;
+       height: auto;
+    }
+
+    .socials-containers {
+        margin: auto;
+    }
+
+
+.forth-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.font {
+    font-size: 3rem;
+}
+
+.contact-info {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.text-area-1 {
+    width: 90%;
+    margin: 0 5%;
+}
+
+.name {
+   width: 90%;
+    margin: 0 5%;
+}
+
+.my-image {
+      margin: auto;
+    display: block;
+    padding-top: 10px;
+}
+
+.about-t {
+   font-size: 2rem;
+   text-align: center;
+}
+
+.forth {
+    width: 80%;
+    margin: 0 2%;
+    position: relative;
+        bottom: 60px;
+}
+
+.forth-section {
+    height: auto;
+}
+
+.contact-details {
+    margin-top: 30px;
+}
+
+.hamburger-icons {
+    margin-left: 110px;
+    height: 25px;
+    width: 30px;
+    margin-top: 5px;
+}
+
+.fifth-container {
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.my-name {
+    height: 80vh;
+}
+
+.name-container {
+    margin-top: 100px;
+}
+
+.container-section {
+    font-size: 25px;
+}
+
+.my-exprienced {
+    text-align: center;
+    position: relative;
+    top: 40px;
+}
+
+.bttn {
+    margin: 0 5%;
+}
+
+}

@@ -38,7 +38,7 @@ nav {
 .my-name {
    text-align: center;
   height: 80vh;
- background: url("./src/sky.png");
+ background: url("sky.png");
  position: relative;
  padding-top: 100px;
 }

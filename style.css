@@ -1,0 +1,469 @@
+* {
+    margin: 0;
+    padding: 0;
+      font-family: "Montserrat", sans-serif;
+      letter-spacing: 1px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    font-size: 1.5rem;
+}
+
+.firt-h1 {
+    color: white;
+    letter-spacing: 2.5px;
+}
+
+.my-info {
+    display: flex;
+    list-style: none;
+    gap: 3rem;
+    color: white;
+}
+
+.my-info li a {
+    display: flex;
+    align-items: center;
+    gap: 0.3rem;
+}
+
+.my-info svg {
+    height: 1.8rem;
+    width: 1.8rem;
+    fill: white;
+    margin-bottom: 5px;
+}
+
+nav {
+    background-color: #2F768B;
+    padding: 15px 30px;
+}
+
+.my-name {
+   text-align: center;
+  height: 90vh;
+ background: url("./src/flower.png");
+ background-size: cover;
+ background-position: center;
+ position: relative;
+ display: flex;
+ align-items: center;
+text-align: start;
+justify-content: center;
+}
+
+.name-container {
+    height: 100px;
+}
+
+.font {
+    font-size: 2.5rem;
+    color: black;
+    font-weight: 300;
+}
+
+.my-title {
+    color: black;
+    margin-top: 1.5rem;
+    font-size: 2.5rem;
+    font-weight: 300;
+}
+
+.font-p {
+    font-size: 2.5rem;
+    color: #4A4A4A;
+    margin-top: 2rem;
+    font-weight: 300;
+}
+
+.second-container {
+    height: 100vh;
+    background-color: #2f6e81;
+    clip-path: polygon(50% 0%, 100% 0, 100% 82%, 0 100%, 0 0);
+    display: flex;
+    justify-content: space-around;
+}
+
+.my-image {
+    width: 300px;
+    height: 300px;
+    border-radius: 200px;
+    position: relative;
+    top: 20%;
+    object-fit: cover;
+   
+}
+
+.middle-part {
+    display: flex;
+    justify-content: center;
+    gap: 6rem;
+}
+
+.about {
+    text-align: center;
+    margin-top: 120px;
+    color: white;
+}
+
+.about-t {
+    font-size: 3.5rem;
+    color: white;
+    position: relative;
+    letter-spacing: 2.5px;
+}
+
+.my-paragraph {
+    color: white;
+    font-size: 30px;
+}
+
+.para {
+    width: 600px;
+    margin: auto;
+    position: relative;
+    top: 15px;
+    color: white;
+    letter-spacing: 2.5px;
+}
+
+.my-cv {
+    margin-top: 30px;
+    font-size: 1rem;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 7px;
+    font-weight: bold;
+    background-color: black;
+    color: white;
+    transition: 0.5s ease;
+}
+
+.my-cv:hover {
+   background-color: #4b4646;
+}
+
+.card-cont-sec {
+    width: 350px;
+    height: 500px;
+    background-color: #686875;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset,
+     rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px,
+     rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+     transition: all 0.8 ease;
+}
+
+.card-cont-sec:hover {
+      transform: scale(1.05);
+  box-shadow: 0 0 20px rgba(125, 138, 138, 0.5);
+}
+
+.card-img {
+    width: 300px;
+    height: 200px;
+    margin: auto;
+     background-size: cover;
+     background-position: center;
+    display: flex;
+    padding: 10px;
+}
+
+.card-paragraph {
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+.card-button {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+    font-size: 1rem;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 7px;
+    font-weight: bold;
+    background-color: black;
+    color: white;
+    transition: 0.5s ease; 
+}
+
+.card-button:hover {
+     background-color: #4b4646;
+}
+
+.card-cont {
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    height: 98vh;
+}
+
+.pro {
+    text-align: center;
+    font-size: 3rem;
+    margin-bottom: 3rem;
+}
+
+.fifth-container {
+    height: 85vh;
+    display: flex;
+    justify-content: center;
+}
+
+.name {
+    font-size: 1.2rem;
+    border-radius: 30px;
+    border: 2px solid;
+    padding: 10px 2.5rem;
+    width: 350px;
+    border-color: rgb(109, 221, 221);
+}
+
+.contact-info {
+    display: flex;
+    gap: 2rem;
+}
+
+.form-control {
+    margin-top: 15px;
+}
+
+.text-area-1 {
+    width: 730px;
+    height: 200px;
+    padding-left: 2.5rem;
+    padding-top: 10px;
+    font-size: 18px;
+    border-radius: 15px;
+    border: 2px solid;
+    border-color: rgb(109, 221, 221);
+}
+
+.fifth-h {
+   font-size: 3rem;
+   text-align: center;
+   margin-bottom: 3rem;
+}
+
+.form-button {
+    margin-top: 10px;
+}
+
+.bttn {
+    font-size: 1rem;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 7px;
+    font-weight: bold;
+    background-color: black;
+    color: white;
+    transition: 0.5s ease; 
+}
+
+.bttn:hover {
+    background-color: #4b4646;
+}
+
+
+.sixth-container {
+     height: 60vh;
+    background-color: #2f6e81;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    clip-path: polygon(0 27%, 100% 0, 100% 100%, 0% 100%);
+}
+
+.plat-h {
+    text-align: center;
+    font-size: 3rem;
+    margin-bottom: 10px;
+    color: aliceblue;
+}
+
+.plat-p {
+    text-align: center;
+    color: white;
+}
+
+.Social-media {
+    margin-top: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.fa-linkedin {
+    font-size: 50px;
+    transition: all 0.5s ease;
+}
+
+.fa-linkedin:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 20px rgba(0,255,255,0.5);
+}
+
+.fa-linkedin:hover::before {
+  opacity: 1;
+  transform: rotate(-45deg) translateY(100%);
+}
+
+.fa-github {
+    font-size: 50px;
+    transition: all 0.5s ease;
+}
+
+.fa-github:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 20px rgba(0,255,255,0.5);
+}
+
+.fa-github:hover::before {
+  opacity: 1;
+  transform: rotate(-45deg) translateY(100%);
+}
+
+.fa-facebook {
+    font-size: 50px;
+    transition: all 0.5s ease;
+}
+
+.fa-facebook:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 20px rgba(0,255,255,0.5);
+}
+
+.fa-facebook:hover::before {
+  opacity: 1;
+  transform: rotate(-45deg) translateY(100%);
+}
+
+.fa-square-instagram {
+    font-size: 50px;
+     transition: all 0.5s ease;
+}
+
+.fa-square-instagram:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 20px rgba(0,255,255,0.5);
+}
+
+.fa-square-instagram:hover::before {
+  opacity: 1;
+  transform: rotate(-45deg) translateY(100%);
+}
+
+.senventh-con {
+    background-color: black;
+    color: white;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav a {
+    color: white;
+text-decoration: none;
+background-image: linear-gradient(white);
+background-size: 0% 0.1em;
+background-position-y: 100%;
+background-position-x: 50%;
+background-repeat: no-repeat;
+transition: background-size 0.2s ease-in-out;
+}
+
+nav a:hover {
+    background-size: 100% 0.1em;
+}
+
+#hamburger-nav {
+    display: none;
+}
+
+.hamburger-menu {
+    position: relative;
+    display: inline-block;
+}
+
+.hamburger-icons {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 24px;
+    width: 30px;
+    cursor: pointer;
+}
+
+.hamburger-icons span {
+    width: 100%;
+    height: 2px;
+    background-color: black;
+    transition: all 0.3 ease-in-out;
+}
+
+.menu-links {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    background-color: rgba(255, 255, 255, 0.3);;
+    width: fit-content;
+    max-height: 0;
+    overflow: hidden;
+    transition: all 0.3 ease-in-out;
+    z-index: 1;
+}
+
+.menu-links a {
+    display: block;
+    padding: 10px;
+    text-align: center;
+    font-size: 1.3rem;
+    color: black;
+    text-decoration: none;
+    transition: all 0.3 ease-in-out;
+}
+
+.menu-links li {
+    list-style: none;
+}
+
+.menu-links.open {
+    max-height: 300px;
+}
+
+.hamburger-icons.open span:first-child {
+    transform: rotate(45deg) translate(10px, 5px);
+}
+
+.hamburger-icons.open span:nth-child(2) {
+   opacity: 0;
+}
+
+.hamburger-icons.open span:last-child {
+    transform: rotate(-45deg) translate(10px, -5px);
+}
+
+.hamburger-icons span:first-child {
+    transform: none;
+}
+
+.hamburger-icons span:first-child {
+    opacity: 1;
+}
+
+.hamburger-icons span:first-child {
+    transform: none;
+}

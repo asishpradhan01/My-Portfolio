@@ -60,15 +60,16 @@
         top: 1px;
     }
 
-    .pro {
-        padding-top: 2rem;
+     .pro {
+        padding-top: 3rem;
+        margin-bottom: 1.5rem;
     }
 
     .card-cont {
         display: flex;
         flex-direction: column;
         height: auto;
-        padding: 0 1rem;
+        padding: 0 2.5rem;
     }
     
     .card-cont-sec {
@@ -102,10 +103,16 @@
         font-size: 15px;
     }
 
+    .fifth-container {
+        height: auto;
+        padding-bottom: 5rem;
+    }
+
     .sixth-container {
         clip-path: none;
     }
 
 
 }
+
 

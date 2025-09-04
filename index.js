@@ -6,7 +6,7 @@ function toggleMenu() {
 }
 
 const display = document.querySelector(".font-p")
-const words = ["programmer", "Developer", "Web Developer", "Freelancer", "Software Enginner"];
+const words = ["programmer", "Developer", "Web Developer", "Freelancer", "Software Engineer"];
 
 let wordIndex = 0;
 let charIndex = 0;
@@ -30,5 +30,6 @@ function typeEffect() {
     }
   
 }
+
 
 typeEffect()

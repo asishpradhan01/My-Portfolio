@@ -116,9 +116,67 @@
     .sixth-container {
         clip-path: none;
     }
-
-
 }
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+   .my-info li a {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 0.3rem;
+   }
+
+   .my-info {
+    gap: 1.5rem;
+   }
+
+   .name-container {
+    margin-bottom: 5rem;
+   }
+
+   .middle-part {
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+   }
+
+   .my-image {
+    position: relative;
+    top: 1%;
+    margin: auto;
+   }
+
+   .second-container {
+     height: auto;
+     padding-bottom: 9rem;
+   }
+
+   .about {
+    margin-top: 2rem;
+   }
+
+   .card-cont {
+    display: flex;
+    flex-wrap: wrap;
+    height: auto;
+    box-sizing: border-box;
+   }
+
+   .fifth-container {
+    height: auto;
+    padding-top: 5rem;
+   }
+
+   .sixth-container {
+    height: auto;
+    padding-top: 8rem;
+   } 
+
+   .social-media {
+    margin-bottom: 2rem;
+   }
+}
+
 
 
 

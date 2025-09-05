@@ -142,13 +142,13 @@
 
    .my-image {
     position: relative;
-    top: 1%;
+    top: 6%;
     margin: auto;
    }
 
    .second-container {
      height: auto;
-     padding-bottom: 9rem;
+     padding-bottom: 15rem;
    }
 
    .about {
@@ -176,6 +176,7 @@
     margin-bottom: 2rem;
    }
 }
+
 
 
 

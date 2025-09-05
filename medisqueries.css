@@ -58,6 +58,11 @@
         width: 100%;
         position: relative;
         top: 1px;
+         text-align: start;
+    }
+
+    .card-paragraph {
+        text-align: start;
     }
 
      .pro {
@@ -114,5 +119,6 @@
 
 
 }
+
 
 

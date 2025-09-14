@@ -144,6 +144,7 @@ justify-content: center;
     background-color: black;
     color: white;
     transition: 0.5s ease;
+    border: none;
 }
 
 .my-cv:hover {
@@ -197,6 +198,7 @@ justify-content: center;
     background-color: black;
     color: white;
     transition: 0.5s ease; 
+    border: none;
 }
 
 .card-button:hover {
@@ -270,6 +272,7 @@ justify-content: center;
     background-color: black;
     color: white;
     transition: 0.5s ease; 
+     border: none;
 }
 
 .bttn:hover {
@@ -469,4 +472,5 @@ nav a:hover {
     transform: none;
 
 }
+
 

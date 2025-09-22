@@ -14,6 +14,7 @@ html {
     display: flex;
     justify-content: space-around;
     font-size: 1.5rem;
+    align-items: center;
 }
 
 .firt-h1 {
@@ -472,5 +473,6 @@ nav a:hover {
     transform: none;
 
 }
+
 
 

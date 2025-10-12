@@ -308,15 +308,16 @@ justify-content: center;
     display: flex;
     align-items: center;
     justify-content: center;
+    cursor: pointer;
 }
 
 .fa-linkedin {
     font-size: 50px;
-    transition: all 0.5s ease;
+    transition: 1s ease;
 }
 
 .fa-linkedin:hover {
-  transform: scale(1.05);
+  transform: rotateZ(-360deg);
   box-shadow: 0 0 20px rgba(0,255,255,0.5);
 }
 
@@ -327,11 +328,11 @@ justify-content: center;
 
 .fa-github {
     font-size: 50px;
-    transition: all 0.5s ease;
+    transition: 1s ease;
 }
 
 .fa-github:hover {
-  transform: scale(1.05);
+  transform: rotateZ(360deg);
   box-shadow: 0 0 20px rgba(0,255,255,0.5);
 }
 
@@ -342,11 +343,11 @@ justify-content: center;
 
 .fa-facebook {
     font-size: 50px;
-    transition: all 0.5s ease;
+   transition: 1s ease;
 }
 
 .fa-facebook:hover {
-  transform: scale(1.05);
+  transform: rotateZ(-360deg);
   box-shadow: 0 0 20px rgba(0,255,255,0.5);
 }
 
@@ -357,11 +358,11 @@ justify-content: center;
 
 .fa-square-instagram {
     font-size: 50px;
-     transition: all 0.5s ease;
+    transition: 1s ease;
 }
 
 .fa-square-instagram:hover {
-  transform: scale(1.05);
+  transform: rotateZ(360deg);
   box-shadow: 0 0 20px rgba(0,255,255,0.5);
 }
 
@@ -473,6 +474,7 @@ nav a:hover {
     transform: none;
 
 }
+
 
 
 
